@@ -87,12 +87,12 @@ const app = express();
 // ── CORS CONFIG ───────────────────────────────────────────
 app.use(cors({
   origin: [
-    'http://localhost:5173',
-    'http://localhost:3000',
-    'https://bipbilling.co.in',
-    'https://www.bipbilling.co.in',
-    'https://your-frontend.vercel.app'
-  ],
+  'http://localhost:5173',
+  'http://localhost:3000',
+  'https://sachin-repo-9auy.vercel.app',
+  'https://bipbilling.co.in',
+  'https://www.bipbilling.co.in'
+],
   credentials: true
 }));
 
