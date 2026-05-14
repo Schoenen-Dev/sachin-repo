@@ -89,7 +89,7 @@ app.use(cors({
   origin: [
   'http://localhost:5173',
   'http://localhost:3000',
-  'https://sachin-repo-9auy.vercel.app',
+  'https://sachin-login-repo.vercel.app',
   'https://bipbilling.co.in',
   'https://www.bipbilling.co.in'
 ],
